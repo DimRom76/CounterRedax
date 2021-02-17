@@ -10,7 +10,6 @@ const Controls = ({ step, onIncrement, onDecrement }) => (
     <button type="button" onClick={() => onDecrement(step)}>
       Уменьшить на {step}
     </button>
-    butt
   </div>
 );
 
